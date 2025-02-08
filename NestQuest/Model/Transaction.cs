@@ -11,7 +11,7 @@ namespace NestQuest.Model
 {
 
     //
-    internal class Transaction
+    public class Transaction
     {
 
         [Key,Column(Order =0)]

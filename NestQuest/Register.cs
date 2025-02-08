@@ -68,10 +68,15 @@ namespace NestQuest
 
         private void tn_clear_Click(object sender, EventArgs e)
         {
-            
+
             this.Hide();
             Login loginForm = new Login();
             loginForm.Show();
+        }
+
+        private void Register_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

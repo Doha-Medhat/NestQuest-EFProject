@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NestQuest.Model
 {
-    internal class User
+    public class User
     {
         [Key]
         public int Id { get; set; }

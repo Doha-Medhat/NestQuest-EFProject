@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NestQuest.Model
 {
-    internal class Properties
+    public class Properties
     {
         [Key]
         public int propId { get; set; }

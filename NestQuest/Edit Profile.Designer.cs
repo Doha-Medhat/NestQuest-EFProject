@@ -32,9 +32,9 @@
             label1 = new Label();
             label2 = new Label();
             label4 = new Label();
-            textBox1 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            txbFullNme = new TextBox();
+            txbemail = new TextBox();
+            txbpass = new TextBox();
             btnEdit = new Button();
             btnsave = new Button();
             panel1 = new Panel();
@@ -43,7 +43,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(232, 113);
+            label1.Location = new Point(209, 107);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 1;
@@ -67,36 +67,36 @@
             label4.TabIndex = 4;
             label4.Text = "label4";
             // 
-            // textBox1
+            // txbFullNme
             // 
-            textBox1.BackColor = SystemColors.AppWorkspace;
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.ForeColor = SystemColors.WindowFrame;
-            textBox1.Location = new Point(253, 192);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 7;
-            textBox1.TextChanged += textBox1_TextChanged;
+            txbFullNme.BackColor = SystemColors.AppWorkspace;
+            txbFullNme.BorderStyle = BorderStyle.FixedSingle;
+            txbFullNme.ForeColor = SystemColors.WindowFrame;
+            txbFullNme.Location = new Point(253, 105);
+            txbFullNme.Name = "txbFullNme";
+            txbFullNme.Size = new Size(100, 23);
+            txbFullNme.TabIndex = 7;
+            txbFullNme.TextChanged += textBox1_TextChanged;
             // 
-            // textBox3
+            // txbemail
             // 
-            textBox3.BackColor = SystemColors.AppWorkspace;
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.ForeColor = SystemColors.WindowFrame;
-            textBox3.Location = new Point(253, 105);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 9;
+            txbemail.BackColor = SystemColors.AppWorkspace;
+            txbemail.BorderStyle = BorderStyle.FixedSingle;
+            txbemail.ForeColor = SystemColors.WindowFrame;
+            txbemail.Location = new Point(253, 194);
+            txbemail.Name = "txbemail";
+            txbemail.Size = new Size(100, 23);
+            txbemail.TabIndex = 9;
             // 
-            // textBox4
+            // txbpass
             // 
-            textBox4.BackColor = SystemColors.AppWorkspace;
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.ForeColor = SystemColors.WindowFrame;
-            textBox4.Location = new Point(253, 253);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(127, 23);
-            textBox4.TabIndex = 10;
+            txbpass.BackColor = SystemColors.AppWorkspace;
+            txbpass.BorderStyle = BorderStyle.FixedSingle;
+            txbpass.ForeColor = SystemColors.WindowFrame;
+            txbpass.Location = new Point(253, 253);
+            txbpass.Name = "txbpass";
+            txbpass.Size = new Size(127, 23);
+            txbpass.TabIndex = 10;
             // 
             // btnEdit
             // 
@@ -140,9 +140,9 @@
             Controls.Add(panel1);
             Controls.Add(btnsave);
             Controls.Add(btnEdit);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox1);
+            Controls.Add(txbpass);
+            Controls.Add(txbemail);
+            Controls.Add(txbFullNme);
             Controls.Add(label4);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -157,9 +157,9 @@
         private Label label1;
         private Label label2;
         private Label label4;
-        private TextBox textBox1;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox txbFullNme;
+        private TextBox txbemail;
+        private TextBox txbpass;
         private Button btnEdit;
         private Button btnsave;
         private Panel panel1;

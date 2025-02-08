@@ -52,9 +52,9 @@ namespace NestQuest
                 var user = context.Users.Find(currentUserId);
                 if (user != null)
                 {
-                    textBox1.Text = user.FullName;
-                    textBox2.Text = user.Email;
-                    textBox3.Text = user.Password;
+                    txbFullNme.Text = user.FullName;
+                    txbemail.Text = user.Email;
+                    txbpass.Text = user.Password;
 
 
 
@@ -76,9 +76,9 @@ namespace NestQuest
                 if (user != null)
                 {
                     
-                    user.FullName = textBox1.Text;
-                    user.Email = textBox2.Text;
-                    user.Password = textBox3.Text;
+                    user.FullName = txbFullNme.Text;
+                    user.Email = txbemail.Text;
+                    user.Password = txbpass.Text;
                    
 
                     try
@@ -97,9 +97,9 @@ namespace NestQuest
 
         private void SetFieldsEditable(bool isEditable)
         {
-            textBox1.ReadOnly = !isEditable;
-            textBox2.ReadOnly = !isEditable;
-            textBox3.ReadOnly = !isEditable;
+            txbFullNme.ReadOnly = !isEditable;
+            txbemail.ReadOnly = !isEditable;
+            txbpass.ReadOnly = !isEditable;
             
             btnsave.Enabled = isEditable;
         }

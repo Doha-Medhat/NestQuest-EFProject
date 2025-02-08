@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NestQuest.Model
 {
-    internal class PropertyImage
+    public class PropertyImage
     {
         [Key]
         public int ImgId { get; set; }
